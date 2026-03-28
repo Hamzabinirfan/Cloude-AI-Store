@@ -15,5 +15,6 @@ RUN npm ci --omit=dev && npm cache clean --force
 COPY . .
 
 RUN npm run build
+RUN npx prisma migrate reset --force || true
 
 CMD ["npm", "run", "docker-start"]
