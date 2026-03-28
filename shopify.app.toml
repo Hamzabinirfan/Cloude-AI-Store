@@ -2,7 +2,7 @@
 
 client_id = "c33ca9551d17b996d0f6589ed20a9b4d"
 name = "Cloude AI Store"
-application_url = "https://recognised-salmon-meetings-inner.trycloudflare.com"
+application_url = "https://ai-chat-3hqm.onrender.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ optional_scopes = [ ]
 use_legacy_install_flow = false
 
 [auth]
-redirect_urls = [ "https://recognised-salmon-meetings-inner.trycloudflare.com/auth/callback" ]
+redirect_urls = [ "https://ai-chat-3hqm.onrender.com/auth/callback" ]
 
 [product.metafields.app.demo_info]
 type = "single_line_text_field"
